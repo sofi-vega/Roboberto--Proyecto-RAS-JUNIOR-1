@@ -127,7 +127,7 @@ Usa una bandera `control_libre` para evitar saltos continuos mientras el botón 
 
 ### `servo_publisher.py` — Test Publisher
 
-Nodo de prueba que publica un barrido automático de ángulos (`0° → 180°` en pasos de 30°) en el tópico `servo_cmd` cada segundo.
+Nodo de prueba que publica un barrido automático de ángulos (`0° - 180°` en pasos de 30°) en el tópico `servo_cmd` cada segundo.
 
 ---
 
