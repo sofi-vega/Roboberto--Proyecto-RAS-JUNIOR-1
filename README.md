@@ -192,7 +192,7 @@ ros2 run robotic_arm_ras xbox_control
 
 | Nombre | Programa | Correo |
 |--------|----------|--------|
-| Dylan Felipe Granados | Ingeniería Mecatrónica | dylan-granados@javeriana@javeriana.edu.co |
+| Dylan Felipe Granados | Ingeniería Mecatrónica | dylan-granados@javeriana.edu.co |
 | David Santiago Mebeses | Ingeniería Mecatrónica | Menesesdsantiago@javeriana.edu.co |
 | Sofia Vega Sanchez | Ingeniería Mecatrónica | sm_vega@javeriana.edu.co |
 
