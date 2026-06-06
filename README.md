@@ -70,7 +70,7 @@ El sistema incluye **dos modos de operación**:
 ## Estructura del proyecto
 
 ```text
-robotic_arm_ras/
+Roboberto--Proyecto-RAS-JUNIOR-1/
 ├── connect.py               # Nodo puente ROS 2 a ESP32 (serial)
 ├── control_teclado.py       # Nodo controlador por teclado
 ├── servo_publisher.py       # Publicador de prueba (barrido 0°-180°)
