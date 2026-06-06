@@ -136,7 +136,7 @@ Nodo de prueba que publica un barrido automático de ángulos (`0° - 180°` en 
 Antes de ejecutar los nodos, entra al workspace y carga el entorno:
 
 ```bash
-cd ~/mi_robot_ws
+cd ~/roboberto_ws
 colcon build
 source install/setup.bash
 ```
