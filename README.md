@@ -24,8 +24,8 @@ Sistema completo para controlar un brazo robótico de tres servomotores usando *
 **1. Clonar el repositorio:**
 
 ```bash
-git clone https://github.com/usuario/robotic_arm_ras.git
-cd robotic_arm_ras
+git clone https://github.com/sofi-vega/Roboberto--Proyecto-RAS-JUNIOR-1.git
+cd Roboberto--Proyecto-RAS-JUNIOR-1
 ```
 
 **2. Instalar dependencias ROS 2:**
