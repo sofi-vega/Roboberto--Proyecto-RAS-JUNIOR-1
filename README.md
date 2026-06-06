@@ -133,16 +133,24 @@ Nodo de prueba que publica un barrido automático de ángulos (`0° - 180°` en 
 
 ## Cómo ejecutarlo
 
+Antes de ejecutar los nodos, entra al workspace y carga el entorno:
+
+```bash
+cd ~/mi_robot_ws
+colcon build
+source install/setup.bash
+```
+
 ### Modo teclado
 
 Abre **dos terminales** y ejecuta:
 
 ```bash
 # Terminal 1 — Puente serial con la ESP32
-ros2 run robotic_arm_ras connect
+ros2 run roboberto_pkg connect
 
 # Terminal 2 — Control por teclado
-ros2 run robotic_arm_ras control_teclado
+ros2 run roboberto_pkg control_teclado
 ```
 
 ### Modo Xbox
@@ -151,13 +159,13 @@ Conecta el mando Xbox y abre **tres terminales**:
 
 ```bash
 # Terminal 1 — Puente serial con la ESP32
-ros2 run robotic_arm_ras connect
+ros2 run roboberto_pkg connect
 
 # Terminal 2 — Driver del joystick
 ros2 run joy joy_node
 
 # Terminal 3 — Control Xbox
-ros2 run robotic_arm_ras xbox_control
+ros2 run roboberto_pkg xbox_control
 ```
 
 ---
